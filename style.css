@@ -1,0 +1,104 @@
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #e6b928;
+  border-color: #b83834;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #f0c757 !important;
+}
+
+.text-light {
+  color: #971d1d !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #e4f1f8 !important;
+}
+
+.bg-dark {
+  background-color: #d6b314 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+header {
+  height: 30vh;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  border: rgb(219, 181, 9) solid 2px;
+  padding: 16px;
+  margin: 1px;
+  align-items: center;
+  border-radius: 6px;
+}
+
+footer .container p {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+.scroll-to-top {
+  width: 50px;
+  height: 50px;
+  visibility: hidden;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+#dropdownMenuButton1:hover {
+  box-shadow: 0 12px 16px 0 rgba(226, 12, 58, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-menu {
+  height: 40px;
+  overflow: auto;
+  height: 200px;
+  width: auto;
+}
+
+.choose-location {
+  background-color: rgb(153, 250, 153);
+}
+
+.bg-primary {
+  background-image: url(https://i0.wp.com/i.redd.it/2xcwea5gxse71.jpg?resize=1200%2C800&ssl=1);
+}
+
+.py-5 {
+  background-color: rgb(230, 236, 233);
+  border: rgb(179, 179, 179) solid 1px;
+}
